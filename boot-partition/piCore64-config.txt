@@ -5,19 +5,19 @@
 # RPi PI0-1-2 are not supported on this image.
 
 [PI02]
-initramfs rootfs-piCore64-17.0.gz,modules-6.18.16-piCore-v8.gz followkernel
+initramfs rootfs-piCore64-17.0.zst,modules-6.18.16-piCore-v8.zst followkernel
 kernel kernel61816v8.img
 
 [PI3]
-initramfs rootfs-piCore64-17.0.gz,modules-6.18.16-piCore-v8.gz followkernel
+initramfs rootfs-piCore64-17.0.zst,modules-6.18.16-piCore-v8.zst followkernel
 kernel kernel61816v8.img
 
 [PI4]
-initramfs rootfs-piCore64-17.0.gz,modules-6.18.16-piCore-v8.gz followkernel
+initramfs rootfs-piCore64-17.0.zst,modules-6.18.16-piCore-v8.zst followkernel
 kernel kernel61816v8.img
 
 [PI5]
-initramfs rootfs-piCore64-17.0.gz,modules-6.18.16-piCore-v8-16k.gz followkernel
+initramfs rootfs-piCore64-17.0.zst,modules-6.18.16-piCore-v8-16k.zst followkernel
 kernel kernel61816v8-16k.img
 
 [CM4]
