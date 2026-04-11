@@ -94,6 +94,16 @@ arm_boost=1
 # Enable audio (loads snd_bcm2835)
 dtparam=audio=on
 
+# needed for console display. Change to vc4-kms-v3d if using X or Wayland
+[PI0]
+dtoverlay=vc4-fkms-v3d
+[PI1]
+dtoverlay=vc4-fkms-v3d
+[PI2]
+dtoverlay=vc4-fkms-v3d
+[PI3]
+dtoverlay=vc4-fkms-v3d
+
 [PI4]
 dtoverlay=vc4-kms-v3d
 max_framebuffers=2
@@ -105,4 +115,3 @@ dtoverlay=vc4-kms-v3d
 max_framebuffers=2
 
 [all]
-#dtoverlay=vc4-fkms-v3d
