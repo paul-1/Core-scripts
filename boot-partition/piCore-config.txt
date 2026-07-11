@@ -5,33 +5,33 @@
 #
 
 [PI0]
-initramfs rootfs-piCore-17.0.zst,modules-6.18.28-piCore.zst followkernel
-kernel kernel61828.img
+initramfs rootfs-piCore-17.0.zst,modules-6.18.37-piCore.zst followkernel
+kernel kernel61837.img
 
 [PI02]
-initramfs rootfs-piCore-17.0.zst,modules-6.18.28-piCore-v7.zst followkernel
-kernel kernel61828v7.img
+initramfs rootfs-piCore-17.0.zst,modules-6.18.37-piCore-v7.zst followkernel
+kernel kernel61837v7.img
 
 [PI1]
-initramfs rootfs-piCore-17.0.zst,modules-6.18.28-piCore.zst followkernel
-kernel kernel61828.img
+initramfs rootfs-piCore-17.0.zst,modules-6.18.37-piCore.zst followkernel
+kernel kernel61837.img
 
 [PI2]
-initramfs rootfs-piCore-17.0.zst,modules-6.18.28-piCore-v7.zst followkernel
-kernel kernel61828v7.img
+initramfs rootfs-piCore-17.0.zst,modules-6.18.37-piCore-v7.zst followkernel
+kernel kernel61837v7.img
 
 [PI3]
-initramfs rootfs-piCore-17.0.zst,modules-6.18.28-piCore-v7.zst followkernel
-kernel kernel61828v7.img
+initramfs rootfs-piCore-17.0.zst,modules-6.18.37-piCore-v7.zst followkernel
+kernel kernel61837v7.img
 
 [PI4]
-initramfs rootfs-piCore-17.0.zst,modules-6.18.28-piCore-v8.zst followkernel
-kernel kernel61828v8.img
+initramfs rootfs-piCore-17.0.zst,modules-6.18.37-piCore-v8.zst followkernel
+kernel kernel61837v8.img
 arm_64bit=1
 
 [PI5]
-initramfs rootfs-piCore-17.0.zst,modules-6.18.28-piCore-v8.zst followkernel
-kernel kernel61828v8.img
+initramfs rootfs-piCore-17.0.zst,modules-6.18.37-piCore-v8.zst followkernel
+kernel kernel61837v8.img
 arm_64bit=1
 
 [CM4]
